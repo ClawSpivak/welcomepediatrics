@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our People | Welcome Pediatrics PLLC – Brooklyn, NY</title>
+  <meta name="description" content="Meet the doctors and staff at Welcome Pediatrics PLLC — Dr. Svetlana Spivak, Dr. Irina Nelipovich, and our caring team in Brooklyn, NY." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <meta name="color-scheme" content="light" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .doctor-section {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 3rem;
+      align-items: start;
+      padding: 3rem 0;
+      border-bottom: 1px solid #E5EEF5;
+    }
+    .doctor-section:last-of-type { border-bottom: none; }
+    .doctor-avatar-large {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #C5DFF0, #EAF4FB);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      border: 4px solid var(--blue-light);
+      flex-shrink: 0;
+    }
+    .doctor-name { font-size: clamp(1.4rem, 3vw, 2rem); color: var(--blue-dark); margin-bottom: 0.25rem; }
+    .doctor-title { font-size: 0.9rem; color: var(--blue); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1.25rem; }
+    @media (max-width: 640px) {
+      .doctor-section { grid-template-columns: 1fr; }
+      .doctor-avatar-large { width: 120px; height: 120px; font-size: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Welcome Pediatrics PLLC — go to homepage">
+      <img src="images/logo_main.png" alt="Welcome Pediatrics PLLC" style="height:44px;width:auto;" />
+    </a>
+    <ul class="nav-links" id="navLinks" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="our-people.html" class="active" aria-current="page">Our People</a></li>
+      <li><a href="new-patients.html">New Patients</a></li>
+      <li><a href="clinical.html">Clinical Info</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+    </ul>
+    <button type="button" class="hamburger" id="hamburger" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation menu">
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+<div class="header-banner">
+  <img src="images/home-header.png" alt="Welcome Pediatrics — Brooklyn, NY" />
+</div>
+
+<div class="page-hero">
+  <h1>Our People</h1>
+  <p>Meet the doctors and staff who make Welcome Pediatrics the most special practice in New York City.</p>
+</div>
+
+<section>
+  <div class="section-inner">
+
+    <article id="dr-spivak" class="doctor-section">
+      <div class="doctor-avatar-large" style="background:none;border:none;">
+        <img src="images/svetlana_spivak.jpg" alt="Dr. Svetlana Spivak" style="width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid var(--blue-light);" />
+      </div>
+      <div>
+        <h2 class="doctor-name">Dr. Svetlana Spivak, M.D., FAAP</h2>
+        <p class="doctor-title">Co-Founder &amp; Lead Pediatrician</p>
+        <div class="prose">
+          <p>Dr. Svetlana Spivak has been practicing pediatrics for over 30 years and has dedicated the last 25 of those years to serving families right here in Brooklyn. She is a graduate of Leningrad Medical School and completed her residency training at Elmhurst Hospital through Mount Sinai.</p>
+          <p>A Fellow of the American Academy of Pediatrics (FAAP) and a member of the American Medical Association (AMA), Dr. Spivak brings exceptional credentials alongside a warm, deeply personal approach to pediatric care. She has been published nationally and has made television and radio appearances sharing her expertise.</p>
+          <p>For Dr. Spivak, medicine is a family affair. Her husband Igor manages the practice, and two of her grandchildren are patients at Welcome Pediatrics — a testament to the trust and care she provides every day.</p>
+        </div>
+        <ul class="credential-list" aria-label="Credentials">
+          <li>M.D., Leningrad Medical School</li>
+          <li>Residency at Elmhurst Hospital (Mount Sinai)</li>
+          <li>Fellow, American Academy of Pediatrics (FAAP)</li>
+          <li>Member, American Medical Association (AMA)</li>
+          <li>Published nationally in pediatric medicine</li>
+          <li>30+ years of pediatric experience</li>
+          <li>Serving Brooklyn families for 25+ years</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="dr-nelipovich" class="doctor-section">
+      <div class="doctor-avatar-large" style="background:none;border:none;">
+        <img src="images/Irina-Nelipovich-e1488559052987.jpg" alt="Dr. Irina Nelipovich" style="width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid var(--blue-light);" />
+      </div>
+      <div>
+        <h2 class="doctor-name">Dr. Irina Nelipovich, M.D., FAAP</h2>
+        <p class="doctor-title">Co-Founder &amp; Lead Pediatrician</p>
+        <div class="prose">
+          <p>Dr. Irina Nelipovich brings over 30 years of pediatric experience and a lifelong commitment to children's health. She graduated from Minsk State Medical School and completed her residency through Mount Sinai, where she developed a rigorous clinical foundation.</p>
+          <p>After her residency, Dr. Nelipovich joined forces with Dr. Spivak to co-found Welcome Pediatrics in 2006, fulfilling their shared vision of building a pediatrics-only practice rooted in the Brooklyn community.</p>
+          <p>Like Dr. Spivak, medicine runs in Dr. Nelipovich's family. Her daughter Inna is a cardiologist practicing in New York City, and Dr. Nelipovich's three grandchildren are among the many families she has had the privilege of caring for over the years.</p>
+        </div>
+        <ul class="credential-list" aria-label="Credentials">
+          <li>M.D., Minsk State Medical School</li>
+          <li>Residency through Mount Sinai</li>
+          <li>Fellow, American Academy of Pediatrics (FAAP)</li>
+          <li>Co-founder of Welcome Pediatrics PLLC (2006)</li>
+          <li>30+ years of pediatric experience</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="igor-spivak" class="doctor-section">
+      <div class="doctor-avatar-large" style="background:none;border:none;">
+        <img src="images/igor.png" alt="Igor Spivak" style="width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid var(--blue-light);" />
+      </div>
+      <div>
+        <h2 class="doctor-name">Igor Spivak, L.Ac.</h2>
+        <p class="doctor-title">Practice Manager &amp; Licensed Acupuncturist</p>
+        <div class="prose">
+          <p>Igor Spivak oversees the day-to-day operations of Welcome Pediatrics, handling administration, billing, and accounting to ensure the practice runs smoothly. His background and dedication ensure that the business side of medicine never gets in the way of patient care.</p>
+          <p>In addition to his role as practice manager, Igor is a licensed acupuncturist (L.Ac.) and sees his own patients at the office, bringing a complementary approach to wellness.</p>
+        </div>
+      </div>
+    </article>
+
+    <article id="office-staff" class="doctor-section">
+      <div class="doctor-avatar-large" style="background:none;border:none;border-radius:var(--radius);overflow:hidden;width:180px;height:auto;">
+        <img src="images/offficestaff.png" alt="Welcome Pediatrics office staff" style="width:180px;height:180px;object-fit:cover;border-radius:var(--radius);border:4px solid var(--blue-light);" />
+      </div>
+      <div>
+        <h2 class="doctor-name">Office Assistants &amp; Medical Staff</h2>
+        <p class="doctor-title">Our Friendly Team</p>
+        <div class="prose">
+          <p>Our medical assistants and receptionists are the heart of our day-to-day patient experience. Knowledgeable, warm, and always ready to help, they make every visit to Welcome Pediatrics as smooth and comfortable as possible.</p>
+          <p>Whether you're scheduling an appointment, asking a billing question, or checking in with a sick child, our staff is here to help with care and a smile.</p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="alt">
+  <div class="section-inner" style="text-align:center;max-width:640px;margin:0 auto;">
+    <p class="section-label">Ready to Meet Us?</p>
+    <h2 class="section-title">Schedule Your First Visit</h2>
+    <p style="color:var(--muted);font-size:1.05rem;margin-bottom:2rem;">New patients are always welcome. Call us or send a message to get started.</p>
+    <div class="hero-buttons" style="justify-content:center;">
+      <a href="tel:7182589888" class="btn btn-primary">Call (718) 258-9888</a>
+      <a href="contact.html" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer aria-label="Site footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h3>Welcome Pediatrics PLLC</h3>
+      <p>Board-certified pediatric care for infants through age 21 in Brooklyn, NY. Founded 2006 by Dr. Svetlana Spivak and Dr. Irina Nelipovich.</p>
+      <p style="margin-top:0.75rem;">2287 Nostrand Avenue, Brooklyn, NY 11210</p>
+    </div>
+    <div class="footer-nav">
+      <h4>Pages</h4>
+      <ul role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our-people.html">Our People</a></li>
+        <li><a href="new-patients.html">New Patients</a></li>
+        <li><a href="clinical.html">Clinical Info</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-nav">
+      <h4>Contact</h4>
+      <ul role="list">
+        <li><a href="tel:7182589888">(718) 258-9888</a></li>
+        <li>Fax: (347) 462-4257</li>
+        <li><a href="mailto:welcomepediatrics@gmail.com">welcomepediatrics@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Welcome Pediatrics PLLC · Brooklyn, NY</span>
+    <span><a href="new-patients.html#insurance">Insurance</a> · <a href="contact.html">Contact</a></span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
